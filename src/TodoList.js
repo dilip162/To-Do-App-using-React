@@ -6,9 +6,6 @@ function TodoList() {
     const [listData, setlistData] = useState([])
 
     function addActivity() {
-        // setlistData([...listData, activity])
-        // console.log(listData)
-
         setlistData((listData) => {
             const updatedList = [...listData, activity]
             console.log(updatedList)
